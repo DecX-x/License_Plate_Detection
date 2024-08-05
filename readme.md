@@ -5,27 +5,20 @@ This project provides a license plate detection and recognition system using YOL
 **Requirements**
 
 * ultralytics (YOLOv8)
-* opencv-python
-* matplotlib
-* roboflow
+* opencv-python (for video capture)
+* matplotlib (for visualization)
+* roboflow (for dataset and model training)
 
 **Installation**
 
 1. **Install Requirements:**
    ```bash
-   pip install ultralytics opencv-python
-   ```
-2. **Install YOLOv8:** 
-   ```bash
-   yolo task=detect mode=install
+   pip install -r requirements.txt
    ```
 
 **Usage**
 
-1. **Prepare Your Model:**
-   - Make sure you have a trained YOLOv8 license plate detection model in the project directory, named `license-Plate_detector.pt` (adjust if yours has a different name).
-
-2. **Run the Application:**
+1. **Run the Application:**
    ```bash
    python app.py
    ```
@@ -37,7 +30,7 @@ This project provides a license plate detection and recognition system using YOL
 **Project Structure**
 
 * **app.py:** The main application file to run.
-* **license-Plate_detector.pt:** Your trained YOLOv8 license plate detection model.
+* **license-Plate_detector.pt:** Your trained YOLOv8 license plate detection model (provided).
 
 **Key Points**
 
@@ -47,11 +40,10 @@ This project provides a license plate detection and recognition system using YOL
 
 **Example Output**
 
-[Image of webcam feed with license plates highlighted in bounding boxes]
+[Image of webcam feed with license plates highlighted in bounding boxes] (If you have a sample image, include it here)
 
 **Troubleshooting**
 
 * **Camera Access:** If the webcam doesn't open, ensure your camera is working and not being used by another application.
-* **Model Not Found:** Double-check that your `license-Plate_detector.pt` file is in the same directory as `app.py`.
 
-Let me know if you'd like any further refinements or have more questions.
+Feel free to add any further details or screenshots if you have them. This README should be sufficient to guide users on how to run your project. Let me know if you have any other questions.
