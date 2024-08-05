@@ -38,10 +38,6 @@ This project provides a license plate detection and recognition system using YOL
 * **Confidence Threshold:** Consider adjusting the confidence threshold in `app.py` if you're getting too many false positives or missing some plates.
 * **Customization:** You can customize the appearance of the bounding boxes (color, thickness) and the displayed text (font, size) by modifying the `cv2.rectangle` and `cv2.putText` lines in `app.py`.
 
-**Example Output**
-
-[Image of webcam feed with license plates highlighted in bounding boxes] (If you have a sample image, include it here)
-
 **Troubleshooting**
 
 * **Camera Access:** If the webcam doesn't open, ensure your camera is working and not being used by another application.
