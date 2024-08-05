@@ -10,7 +10,7 @@ cap.set(4, 480)
 model = YOLO("license-Plate_detector.pt")
 
 # object classes
-classNames = ["license_plate"]
+classNames = ["License Plate"]
 
 
 while True:
