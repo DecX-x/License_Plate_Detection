@@ -7,7 +7,7 @@ cap.set(3, 640)
 cap.set(4, 480)
 
 # model
-model = YOLO("best.pt")
+model = YOLO("license-Plate_detector.pt")
 
 # object classes
 classNames = ["license_plate"]
